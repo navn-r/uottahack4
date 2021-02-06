@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { GoogleMap } from '@angular/google-maps';
 import { SearchService } from './services/search.service';
-import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
+import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 
 /**
@@ -43,10 +43,9 @@ export class AppComponent implements AfterViewInit, OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.searchService.searchResult.pipe(distinctUntilChanged(), takeUntil(this.ngUnsubscribe)).subscribe(res => {
-      if(!res) return;
-      this.searchResults = res;
-      console.table(res);
+    this.searchService.searchResult.pipe(takeUntil(this.ngUnsubscribe)).subscribe(res => {
+      this.searchResults = !!res && res.length ? res : [];
+      console.table(this.searchResults);
     });
   }
 

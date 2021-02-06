@@ -37,11 +37,13 @@ export class SearchService {
 
   searchPlaces(position: any, query: string): void {
     if (!this.map || !this.map.googleMap) return;
-    
+
     const prevVal = this.searchResult.getValue();
-    if(!!prevVal)
-      prevVal.forEach((v: any) => (v.marker as google.maps.Marker).setMap(null));
-    
+    if (!!prevVal)
+      prevVal.forEach((v: any) =>
+        (v.marker as google.maps.Marker).setMap(null)
+      );
+
     const { longitude, latitude } = position.coords;
     const service = new google.maps.places.PlacesService(this.map.googleMap);
     service.nearbySearch(
@@ -53,32 +55,44 @@ export class SearchService {
       (req, status) => {
         if (status == google.maps.places.PlacesServiceStatus.OK) {
           this.searchResult.next(
-            req.map((r: google.maps.places.PlaceResult) => {
-              const result = {
-                location: r.geometry!.location,
-                name: r.name,
-                address: r.vicinity,
-                marker: new google.maps.Marker({ position: r.geometry!.location, map: this.map!.googleMap })
-              } as any;
-              this.polygons.forEach((polygon, i) => {
-                if (
-                  google.maps.geometry.poly.containsLocation(
-                    result.location,
-                    polygon
-                  )
-                ) {
-                  result.neighborhood = data.features[i].properties.name;
-                  result.numCases = data.features[i].properties.numCases;
+            req
+              .map((r: google.maps.places.PlaceResult) => {
+                const result = {
+                  location: r.geometry!.location,
+                  name: r.name,
+                  address: r.vicinity,
+                } as any;
+                this.polygons.forEach((polygon, i) => {
+                  if (
+                    google.maps.geometry.poly.containsLocation(
+                      result.location,
+                      polygon
+                    )
+                  ) {
+                    result.neighborhood = data.features[i].properties.name;
+                    result.numCases = data.features[i].properties.numCases;
+                  }
+                });
+                return result;
+              })
+              .filter((res, index, self) => {
+                if (!res.neighborhood) return false;
+                for (let i = 0; i < index; i++) {
+                  if (self[i].address.includes(res.address.split(',')[0]))
+                    return false;
                 }
-              });
-              return result;
-            }).filter((res, index, self) => {
-              if(!res.neighborhood) return false;
-              for(let i = 0; i < index; i++) {
-                if(self[i].address.includes(res.address.split(',')[0]))
-                  return false;
-              } return true;
-            }).sort((a, b) => a.numCases - b.numCases)
+                return true;
+              })
+              .sort((a, b) => a.numCases - b.numCases)
+              .map((f) => {
+                return {
+                  ...f,
+                  marker: new google.maps.Marker({
+                    position: f.location,
+                    map: this.map!.googleMap,
+                  }),
+                };
+              })
           );
         }
       }

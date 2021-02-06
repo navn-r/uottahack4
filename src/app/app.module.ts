@@ -12,8 +12,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { SearchResultComponent } from './components/search-result/search-result.component';
+import { MatTooltipModule } from '@angular/material/tooltip';
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent],
+  declarations: [AppComponent, SearchBarComponent, SearchResultComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -26,6 +28,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     MatFormFieldModule,
     MatIconModule,
     GoogleMapsModule,
+    MatTooltipModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

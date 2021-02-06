@@ -11,7 +11,7 @@
   font-size: 1.125rem;
   width: 100%;
   border: 0;
-  padding: 6.25% 0.5rem;
+  padding: calc(1.25rem) 0.5rem;
   outline: none;
   background-color: #111111;
   color: white;
@@ -19,7 +19,7 @@
 
 .search-bar button {
   cursor: pointer;
-  height: 110%;
+  height: 5rem;
   width: 4rem;
   margin: 0;
   border: 0;

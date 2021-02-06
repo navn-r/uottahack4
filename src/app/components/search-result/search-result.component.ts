@@ -9,7 +9,7 @@ export class SearchResultComponent implements OnInit {
 
   @Input()
   res!: any;
-
+  
   constructor() { }
 
   ngOnInit(): void {

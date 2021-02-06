@@ -31,6 +31,18 @@ export class SearchService {
     });
   }
 
+  normalizeColors(searchResults: any[]): any[] {
+    let min = 266, max = 0;
+    searchResults.forEach(({numCases}) => {
+      if(numCases < min) min = numCases;
+      if(numCases > max) max = numCases;
+    });
+    return searchResults.map((r, i) => {
+      let shade = 1 - ((r.numCases - min) / (max - min));
+      return {...r, color: `rgb(${shade * 60}, ${shade * 138}, ${shade * 45})` }
+    });
+  }
+
   setMap(map: GoogleMap): void {
     this.map = map;
   }
@@ -58,6 +70,7 @@ export class SearchService {
             req
               .map((r: google.maps.places.PlaceResult) => {
                 const result = {
+                  placeId: r.place_id,
                   location: r.geometry!.location,
                   name: r.name,
                   address: r.vicinity,
@@ -99,14 +112,3 @@ export class SearchService {
     );
   }
 }
-
-// geometry["location"], name, vicinity
-
-// function addMarker(location, map) {
-//   // Add the marker at the clicked location, and add the next-available label
-//   // from the array of alphabetical characters.
-//   new google.maps.Marker({
-//     position: location,
-//     label: labels[labelIndex++ % labels.length],
-//     map: map,
-//   });

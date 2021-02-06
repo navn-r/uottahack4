@@ -1,3 +1,23 @@
 .search-result {
-  height:4rem;
+  height: 7rem;
+  color: white;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 0.125rem solid black;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: auto 2rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.title a:hover {
+  color: #00BCD4;
 }

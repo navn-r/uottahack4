@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { GoogleMap } from '@angular/google-maps';
 import { SearchService } from './services/search.service';
 import { takeUntil } from 'rxjs/operators';
@@ -13,7 +13,7 @@ import { Subject } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements AfterViewInit, OnInit, OnDestroy {
-  title = "Where's the Safest Space?";
+  title = "Where's the safest space?";
 
   @ViewChild(GoogleMap, { static: false }) map!: GoogleMap;
 
@@ -23,7 +23,7 @@ export class AppComponent implements AfterViewInit, OnInit, OnDestroy {
 
   searchResults: any[] = [];
 
-  constructor(private searchService: SearchService) {}
+  constructor(private searchService: SearchService, private cdr: ChangeDetectorRef) {}
 
   ngAfterViewInit(): void {
     this.map.data.loadGeoJson('../assets/data.json');
@@ -44,8 +44,8 @@ export class AppComponent implements AfterViewInit, OnInit, OnDestroy {
 
   ngOnInit() {
     this.searchService.searchResult.pipe(takeUntil(this.ngUnsubscribe)).subscribe(res => {
-      this.searchResults = !!res && res.length ? res : [];
-      console.table(this.searchResults);
+      this.searchResults = !!res && res.length ? this.searchService.normalizeColors(res) : [];
+      this.cdr.detectChanges();
     });
   }
 

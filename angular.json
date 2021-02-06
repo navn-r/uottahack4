@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "uottahack4"
+  "defaultProject": "uottahack4",
+  "cli": {
+    "analytics": "8fbffead-5851-4c71-9185-ea2b73937c0d"
+  }
 }

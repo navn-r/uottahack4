@@ -5,5 +5,5 @@
   <div class="left">
     <app-search-bar (searchEvent)="onSearch($event)"></app-search-bar>
   </div>
-  <app-map></app-map>
+  <google-map #map width="100%" height="92.5vh" [options]="options"></google-map>
 </div>

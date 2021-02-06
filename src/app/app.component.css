@@ -2,3 +2,9 @@
   display: grid;
   grid-template-columns: 25rem auto;
 }
+
+google-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

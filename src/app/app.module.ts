@@ -1,23 +1,22 @@
+import { HttpClientModule } from '@angular/common/http';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MapModule } from './components/map/map.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { FormsModule } from '@angular/forms';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
-import { MatInputModule } from '@angular/material/input';
-import { MatCardModule } from '@angular/material/card';
-import { HttpClientModule } from '@angular/common/http';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [AppComponent, SearchBarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MapModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -25,7 +24,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    GoogleMapsModule,
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

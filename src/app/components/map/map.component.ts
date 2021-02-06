@@ -3,33 +3,34 @@ import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css']
+  styleUrls: ['./map.component.css'],
 })
 export class MapComponent implements OnInit, AfterViewInit {
-
   @ViewChild('map') map!: google.maps.Map;
 
-  constructor() { }
+  text: string = '';
+
+  constructor() {}
 
   ngAfterViewInit(): void {
     this.map.data.loadGeoJson('../../../assets/data.json');
     this.map.data.setStyle((feature) => {
       return {
         fillOpacity: feature.getProperty('fillOpacity'),
-      }
+        strokeWeight: 0.1,
+        fillColor: '#FF0000',
+      };
     });
 
-// map.data.addListener('mouseover', function(event) {
-//   document.getElementById('info-box').textContent =
-//       event.feature.getProperty('name') + event.feature.getProperty('numCases');
-// });
+    this.map.data.addListener('click', (event: any) => {
+      this.text = `${event.feature.getProperty('name')}: ${event.feature.getProperty('numCases')}`;
+    });
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   options: google.maps.MapOptions = {
-    center: {lat: 43.7227, lng: -79.374697},
+    center: { lat: 43.7227, lng: -79.374697 },
     zoom: 12,
   };
 }

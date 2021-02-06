@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "Where's the Safest Space?";
+
+  onSearch(event: any) {
+    console.log(event);
+  }
 }

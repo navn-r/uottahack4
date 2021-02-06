@@ -1,4 +1,9 @@
 <mat-toolbar>
   <span>{{title}}</span>
 </mat-toolbar>
-<app-map></app-map>
+<div class="main-container">
+  <div class="left">
+    <app-search-bar (searchEvent)="onSearch($event)"></app-search-bar>
+  </div>
+  <app-map></app-map>
+</div>

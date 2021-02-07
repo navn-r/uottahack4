@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build.prod": "npm run config -- --environment=prod && ng build --aot --prod --progress false --base-href /uottahack4/"
+    "build.prod": "ng build --aot --prod --progress false --base-href /uottahack4/"
   },
   "private": true,
   "dependencies": {

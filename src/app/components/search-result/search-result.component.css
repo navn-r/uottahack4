@@ -4,7 +4,8 @@
   padding: 0.75rem 0.5rem;
   border-bottom: 0.125rem solid black;
   display: grid;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 4.5rem auto;
+  cursor: pointer;
 }
 
 .title {
@@ -20,4 +21,18 @@
 
 .title a:hover {
   color: #00BCD4;
+}
+
+p {
+  margin: 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto 4rem;
+}
+
+.content div {
+  display: flex;
+  justify-content: flex-end;
 }

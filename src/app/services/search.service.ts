@@ -15,10 +15,12 @@ const TORONTO_BOUNDS = new google.maps.LatLngBounds(
 })
 export class SearchService {
   map: GoogleMap | null = null;
-  geocoder: google.maps.Geocoder = new google.maps.Geocoder();
+  geocoder = new google.maps.Geocoder();
   polygons: google.maps.Polygon[];
 
   searchResult = new BehaviorSubject<any>(null);
+
+  infoWindow = new google.maps.InfoWindow({ content: '<div>Marker</div>' });
 
   constructor() {
     this.polygons = data.features.map((feature) => {
@@ -45,6 +47,21 @@ export class SearchService {
 
   setMap(map: GoogleMap): void {
     this.map = map;
+  }
+
+  /**
+   * https://stackoverflow.com/a/21623206
+   */
+  calcDistance(start: any, dest: any): number {
+    const {lat: lat1, lng: lng1} = start;
+    const {lat: lat2, lng: lng2} = dest;
+    var p = 0.017453292519943295;    // Math.PI / 180
+    var c = Math.cos;
+    var a = 0.5 - c((lat2 - lat1) * p)/2 + 
+            c(lat1 * p) * c(lat2 * p) * 
+            (1 - c((lng2 - lng1) * p))/2;
+  
+    return 12742 * Math.asin(Math.sqrt(a)); // 2 * R; R = 6371 km
   }
 
   searchPlaces(position: any, query: string): void {
@@ -100,6 +117,7 @@ export class SearchService {
               .map((f) => {
                 return {
                   ...f,
+                  distance: this.calcDistance({lat: latitude, lng: longitude}, {lat: f.location.lat(), lng: f.location.lng()}).toFixed(2),
                   marker: new google.maps.Marker({
                     position: f.location,
                     map: this.map!.googleMap,

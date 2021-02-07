@@ -33,7 +33,7 @@ export class AppComponent implements AfterViewInit, OnInit, OnDestroy {
   ) {}
 
   ngAfterViewInit(): void {
-    this.map.data.loadGeoJson('../assets/data.json');
+    this.map.data.loadGeoJson('assets/data.json');
     this.map.data.setStyle((feature) => {
       return {
         fillOpacity: feature.getProperty('fillOpacity'),

@@ -15,7 +15,7 @@ export class SearchResultComponent implements OnInit {
   ngOnInit(): void {}
 
   onClick(event: any): void {
-    this.searchService.map!.googleMap!.setCenter(this.res.marker.getPosition());
+    this.searchService.map!.panTo(this.res.location);
   }
 
   onMouseEnter(event: any): void {
@@ -27,7 +27,6 @@ export class SearchResultComponent implements OnInit {
             You are <strong>${this.res.distance}</strong> kilometers away from this space. <br>
             This space is located in the '<strong>${this.res.neighborhood}</strong>' neighbourhood of Toronto. <br>
             This neighbourhood currently has <strong>${this.res.numCases}</strong> active cases of COVID-19.
-            </ul>
         </div>
       </div>
     `

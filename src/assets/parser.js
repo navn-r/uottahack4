@@ -27,6 +27,14 @@ props = Object.keys(props).map(p => {
   }
 });
 
+props.forEach((a, i) => {
+  let c = 0;
+  props.forEach((b, j) => {
+    if(a.numCases > b.numCases) 
+      c++;
+  }); 
+  a.percentile = (c * 100) / (props.length - 1);
+})
 
 area.features = area.features.map((f, i) => {
  return {
@@ -34,6 +42,7 @@ area.features = area.features.map((f, i) => {
    properties: props[i]
  }
 }).sort((a, b) => a.properties.numCases - b.properties.numCases);
+
 
 console.log(JSON.stringify(area));
 // node parser.js > data.json

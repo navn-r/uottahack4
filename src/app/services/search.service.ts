@@ -21,6 +21,8 @@ export class SearchService {
   searchResult = new BehaviorSubject<any>(null);
 
   infoWindow = new google.maps.InfoWindow({ content: '<div>Marker</div>' });
+  neighborhoodWindow = new google.maps.InfoWindow({ content: '<div>Marker</div>' });
+  
 
   constructor() {
     this.polygons = data.features.map((feature) => {

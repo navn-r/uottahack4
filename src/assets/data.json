@@ -12,7 +12,8 @@
         "shapeArea": 4188623.63671875,
         "shapeLength": 10540.9128019598,
         "numCases": 0,
-        "fillOpacity": 0
+        "fillOpacity": 0,
+        "percentile": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -126,7 +127,8 @@
         "shapeArea": 811303.92578125,
         "shapeLength": 3559.2838534804205,
         "numCases": 0,
-        "fillOpacity": 0
+        "fillOpacity": 0,
+        "percentile": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -209,7 +211,8 @@
         "shapeArea": 2711741.62109375,
         "shapeLength": 7962.833060171341,
         "numCases": 0,
-        "fillOpacity": 0
+        "fillOpacity": 0,
+        "percentile": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -462,7 +465,8 @@
         "shapeArea": 3504255.24609375,
         "shapeLength": 8697.30152569572,
         "numCases": 0,
-        "fillOpacity": 0
+        "fillOpacity": 0,
+        "percentile": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -579,7 +583,8 @@
         "shapeArea": 13478238.7929688,
         "shapeLength": 32302.6616901358,
         "numCases": 0,
-        "fillOpacity": 0
+        "fillOpacity": 0,
+        "percentile": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -2388,7 +2393,8 @@
         "shapeArea": 3160334,
         "shapeLength": 7872.02107369272,
         "numCases": 4,
-        "fillOpacity": 0.015037593984962405
+        "fillOpacity": 0.015037593984962405,
+        "percentile": 3.597122302158273
       },
       "geometry": {
         "type": "Polygon",
@@ -2499,7 +2505,8 @@
         "shapeArea": 14001787.09375,
         "shapeLength": 18026.0947982246,
         "numCases": 5,
-        "fillOpacity": 0.018796992481203006
+        "fillOpacity": 0.018796992481203006,
+        "percentile": 4.316546762589928
       },
       "geometry": {
         "type": "Polygon",
@@ -3010,7 +3017,8 @@
         "shapeArea": 1800511.671875,
         "shapeLength": 5592.46980266711,
         "numCases": 6,
-        "fillOpacity": 0.022556390977443608
+        "fillOpacity": 0.022556390977443608,
+        "percentile": 5.0359712230215825
       },
       "geometry": {
         "type": "Polygon",
@@ -3131,7 +3139,8 @@
         "shapeArea": 7294790.01953125,
         "shapeLength": 13609.015919836002,
         "numCases": 7,
-        "fillOpacity": 0.02631578947368421
+        "fillOpacity": 0.02631578947368421,
+        "percentile": 5.755395683453237
       },
       "geometry": {
         "type": "Polygon",
@@ -3688,7 +3697,8 @@
         "shapeArea": 5914749.83984375,
         "shapeLength": 15568.659275600401,
         "numCases": 8,
-        "fillOpacity": 0.03007518796992481
+        "fillOpacity": 0.03007518796992481,
+        "percentile": 6.474820143884892
       },
       "geometry": {
         "type": "Polygon",
@@ -3847,7 +3857,8 @@
         "shapeArea": 5043477.02734375,
         "shapeLength": 11140.672714408898,
         "numCases": 8,
-        "fillOpacity": 0.03007518796992481
+        "fillOpacity": 0.03007518796992481,
+        "percentile": 6.474820143884892
       },
       "geometry": {
         "type": "Polygon",
@@ -4076,7 +4087,8 @@
         "shapeArea": 4315293.8515625,
         "shapeLength": 10782.6264337713,
         "numCases": 9,
-        "fillOpacity": 0.03383458646616541
+        "fillOpacity": 0.03383458646616541,
+        "percentile": 7.913669064748201
       },
       "geometry": {
         "type": "Polygon",
@@ -4420,7 +4432,8 @@
         "shapeArea": 6211340.6171875,
         "shapeLength": 13530.370001681102,
         "numCases": 9,
-        "fillOpacity": 0.03383458646616541
+        "fillOpacity": 0.03383458646616541,
+        "percentile": 7.913669064748201
       },
       "geometry": {
         "type": "Polygon",
@@ -4568,7 +4581,8 @@
         "shapeArea": 2687049.71484375,
         "shapeLength": 6872.84990597173,
         "numCases": 10,
-        "fillOpacity": 0.03759398496240601
+        "fillOpacity": 0.03759398496240601,
+        "percentile": 9.352517985611511
       },
       "geometry": {
         "type": "Polygon",
@@ -4758,7 +4772,8 @@
         "shapeArea": 2222464.265625,
         "shapeLength": 8130.411275751509,
         "numCases": 10,
-        "fillOpacity": 0.03759398496240601
+        "fillOpacity": 0.03759398496240601,
+        "percentile": 9.352517985611511
       },
       "geometry": {
         "type": "Polygon",
@@ -4868,7 +4883,8 @@
         "shapeArea": 16939139.359375,
         "shapeLength": 21666.0183651171,
         "numCases": 10,
-        "fillOpacity": 0.03759398496240601
+        "fillOpacity": 0.03759398496240601,
+        "percentile": 9.352517985611511
       },
       "geometry": {
         "type": "Polygon",
@@ -5347,7 +5363,8 @@
         "shapeArea": 1243325.53125,
         "shapeLength": 4505.92406594026,
         "numCases": 11,
-        "fillOpacity": 0.041353383458646614
+        "fillOpacity": 0.041353383458646614,
+        "percentile": 11.510791366906474
       },
       "geometry": {
         "type": "Polygon",
@@ -5471,7 +5488,8 @@
         "shapeArea": 4747124.27734375,
         "shapeLength": 9946.858318560358,
         "numCases": 11,
-        "fillOpacity": 0.041353383458646614
+        "fillOpacity": 0.041353383458646614,
+        "percentile": 11.510791366906474
       },
       "geometry": {
         "type": "Polygon",
@@ -5595,7 +5613,8 @@
         "shapeArea": 3416312.26171875,
         "shapeLength": 7571.59952374706,
         "numCases": 12,
-        "fillOpacity": 0.045112781954887216
+        "fillOpacity": 0.045112781954887216,
+        "percentile": 12.949640287769784
       },
       "geometry": {
         "type": "Polygon",
@@ -5812,7 +5831,8 @@
         "shapeArea": 4498352.79296875,
         "shapeLength": 10350.9776525049,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6014,7 +6034,8 @@
         "shapeArea": 1698162.94921875,
         "shapeLength": 6222.9097448684,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6112,7 +6133,8 @@
         "shapeArea": 8933716.890625,
         "shapeLength": 13367.4727142936,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6321,7 +6343,8 @@
         "shapeArea": 9161863.83203125,
         "shapeLength": 20531.7306579808,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6637,7 +6660,8 @@
         "shapeArea": 3052518.03515625,
         "shapeLength": 7512.9667726648795,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6725,7 +6749,8 @@
         "shapeArea": 4388577.1875,
         "shapeLength": 9051.488042018109,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -6810,7 +6835,8 @@
         "shapeArea": 3406856.796875,
         "shapeLength": 11181.7883164002,
         "numCases": 13,
-        "fillOpacity": 0.04887218045112782
+        "fillOpacity": 0.04887218045112782,
+        "percentile": 13.66906474820144
       },
       "geometry": {
         "type": "Polygon",
@@ -7062,7 +7088,8 @@
         "shapeArea": 2744200.05859375,
         "shapeLength": 6866.24684289913,
         "numCases": 15,
-        "fillOpacity": 0.05639097744360902
+        "fillOpacity": 0.05639097744360902,
+        "percentile": 18.705035971223023
       },
       "geometry": {
         "type": "Polygon",
@@ -7145,7 +7172,8 @@
         "shapeArea": 3047728.3828125,
         "shapeLength": 9331.96515621246,
         "numCases": 15,
-        "fillOpacity": 0.05639097744360902
+        "fillOpacity": 0.05639097744360902,
+        "percentile": 18.705035971223023
       },
       "geometry": {
         "type": "Polygon",
@@ -7298,7 +7326,8 @@
         "shapeArea": 2289738.05078125,
         "shapeLength": 6740.99355430536,
         "numCases": 17,
-        "fillOpacity": 0.06390977443609022
+        "fillOpacity": 0.06390977443609022,
+        "percentile": 20.14388489208633
       },
       "geometry": {
         "type": "Polygon",
@@ -7384,7 +7413,8 @@
         "shapeArea": 6877394.35546875,
         "shapeLength": 15586.2976675631,
         "numCases": 18,
-        "fillOpacity": 0.06766917293233082
+        "fillOpacity": 0.06766917293233082,
+        "percentile": 20.863309352517987
       },
       "geometry": {
         "type": "Polygon",
@@ -8076,7 +8106,8 @@
         "shapeArea": 9902532.796875,
         "shapeLength": 13169.020187108501,
         "numCases": 18,
-        "fillOpacity": 0.06766917293233082
+        "fillOpacity": 0.06766917293233082,
+        "percentile": 20.863309352517987
       },
       "geometry": {
         "type": "Polygon",
@@ -8316,7 +8347,8 @@
         "shapeArea": 3341473.0234375,
         "shapeLength": 9933.01485499119,
         "numCases": 18,
-        "fillOpacity": 0.06766917293233082
+        "fillOpacity": 0.06766917293233082,
+        "percentile": 20.863309352517987
       },
       "geometry": {
         "type": "Polygon",
@@ -8495,7 +8527,8 @@
         "shapeArea": 9890472.71484375,
         "shapeLength": 15289.196327678701,
         "numCases": 19,
-        "fillOpacity": 0.07142857142857142
+        "fillOpacity": 0.07142857142857142,
+        "percentile": 23.02158273381295
       },
       "geometry": {
         "type": "Polygon",
@@ -8693,7 +8726,8 @@
         "shapeArea": 7853671.17578125,
         "shapeLength": 11439.1661253659,
         "numCases": 19,
-        "fillOpacity": 0.07142857142857142
+        "fillOpacity": 0.07142857142857142,
+        "percentile": 23.02158273381295
       },
       "geometry": {
         "type": "Polygon",
@@ -8838,7 +8872,8 @@
         "shapeArea": 7844179.67578125,
         "shapeLength": 11218.6548679332,
         "numCases": 19,
-        "fillOpacity": 0.07142857142857142
+        "fillOpacity": 0.07142857142857142,
+        "percentile": 23.02158273381295
       },
       "geometry": {
         "type": "Polygon",
@@ -8950,7 +8985,8 @@
         "shapeArea": 2653484.03515625,
         "shapeLength": 7114.42058918346,
         "numCases": 19,
-        "fillOpacity": 0.07142857142857142
+        "fillOpacity": 0.07142857142857142,
+        "percentile": 23.02158273381295
       },
       "geometry": {
         "type": "Polygon",
@@ -9041,7 +9077,8 @@
         "shapeArea": 3204179.1484375,
         "shapeLength": 9467.82400187715,
         "numCases": 20,
-        "fillOpacity": 0.07518796992481203
+        "fillOpacity": 0.07518796992481203,
+        "percentile": 25.899280575539567
       },
       "geometry": {
         "type": "Polygon",
@@ -9163,7 +9200,8 @@
         "shapeArea": 3306038.25,
         "shapeLength": 7385.141049219359,
         "numCases": 21,
-        "fillOpacity": 0.07894736842105263
+        "fillOpacity": 0.07894736842105263,
+        "percentile": 26.618705035971225
       },
       "geometry": {
         "type": "Polygon",
@@ -9263,7 +9301,8 @@
         "shapeArea": 2142488.42578125,
         "shapeLength": 8613.17393662636,
         "numCases": 21,
-        "fillOpacity": 0.07894736842105263
+        "fillOpacity": 0.07894736842105263,
+        "percentile": 26.618705035971225
       },
       "geometry": {
         "type": "Polygon",
@@ -9351,7 +9390,8 @@
         "shapeArea": 3581522.703125,
         "shapeLength": 8355.08370566452,
         "numCases": 21,
-        "fillOpacity": 0.07894736842105263
+        "fillOpacity": 0.07894736842105263,
+        "percentile": 26.618705035971225
       },
       "geometry": {
         "type": "Polygon",
@@ -9475,7 +9515,8 @@
         "shapeArea": 2875399.125,
         "shapeLength": 8521.47635298774,
         "numCases": 21,
-        "fillOpacity": 0.07894736842105263
+        "fillOpacity": 0.07894736842105263,
+        "percentile": 26.618705035971225
       },
       "geometry": {
         "type": "Polygon",
@@ -9645,7 +9686,8 @@
         "shapeArea": 6192650.87890625,
         "shapeLength": 15209.5134288804,
         "numCases": 21,
-        "fillOpacity": 0.07894736842105263
+        "fillOpacity": 0.07894736842105263,
+        "percentile": 26.618705035971225
       },
       "geometry": {
         "type": "Polygon",
@@ -10070,7 +10112,8 @@
         "shapeArea": 10254357.359375,
         "shapeLength": 15391.5841570156,
         "numCases": 22,
-        "fillOpacity": 0.08270676691729323
+        "fillOpacity": 0.08270676691729323,
+        "percentile": 30.215827338129497
       },
       "geometry": {
         "type": "Polygon",
@@ -10345,7 +10388,8 @@
         "shapeArea": 5533653.20703125,
         "shapeLength": 10354.9904368198,
         "numCases": 23,
-        "fillOpacity": 0.08646616541353383
+        "fillOpacity": 0.08646616541353383,
+        "percentile": 30.93525179856115
       },
       "geometry": {
         "type": "Polygon",
@@ -10448,7 +10492,8 @@
         "shapeArea": 2324743.05859375,
         "shapeLength": 7519.98846382994,
         "numCases": 23,
-        "fillOpacity": 0.08646616541353383
+        "fillOpacity": 0.08646616541353383,
+        "percentile": 30.93525179856115
       },
       "geometry": {
         "type": "Polygon",
@@ -10653,7 +10698,8 @@
         "shapeArea": 3004590.078125,
         "shapeLength": 7873.29535545859,
         "numCases": 24,
-        "fillOpacity": 0.09022556390977443
+        "fillOpacity": 0.09022556390977443,
+        "percentile": 32.37410071942446
       },
       "geometry": {
         "type": "Polygon",
@@ -10747,7 +10793,8 @@
         "shapeArea": 5643281.40625,
         "shapeLength": 10845.612362919,
         "numCases": 25,
-        "fillOpacity": 0.09398496240601503
+        "fillOpacity": 0.09398496240601503,
+        "percentile": 33.093525179856115
       },
       "geometry": {
         "type": "Polygon",
@@ -11178,7 +11225,8 @@
         "shapeArea": 4015390.46484375,
         "shapeLength": 8151.8768879316585,
         "numCases": 25,
-        "fillOpacity": 0.09398496240601503
+        "fillOpacity": 0.09398496240601503,
+        "percentile": 33.093525179856115
       },
       "geometry": {
         "type": "Polygon",
@@ -11323,7 +11371,8 @@
         "shapeArea": 13777192.578125,
         "shapeLength": 27614.9333826792,
         "numCases": 26,
-        "fillOpacity": 0.09774436090225563
+        "fillOpacity": 0.09774436090225563,
+        "percentile": 34.53237410071942
       },
       "geometry": {
         "type": "Polygon",
@@ -13701,7 +13750,8 @@
         "shapeArea": 9502179.58984375,
         "shapeLength": 12667.0139173079,
         "numCases": 27,
-        "fillOpacity": 0.10150375939849623
+        "fillOpacity": 0.10150375939849623,
+        "percentile": 35.25179856115108
       },
       "geometry": {
         "type": "Polygon",
@@ -14212,7 +14262,8 @@
         "shapeArea": 10239751.6914063,
         "shapeLength": 14667.666302436799,
         "numCases": 27,
-        "fillOpacity": 0.10150375939849623
+        "fillOpacity": 0.10150375939849623,
+        "percentile": 35.25179856115108
       },
       "geometry": {
         "type": "Polygon",
@@ -14587,7 +14638,8 @@
         "shapeArea": 3217959.6015625,
         "shapeLength": 7515.779658337209,
         "numCases": 27,
-        "fillOpacity": 0.10150375939849623
+        "fillOpacity": 0.10150375939849623,
+        "percentile": 35.25179856115108
       },
       "geometry": {
         "type": "Polygon",
@@ -14682,7 +14734,8 @@
         "shapeArea": 5337191.84765625,
         "shapeLength": 10513.8831426123,
         "numCases": 30,
-        "fillOpacity": 0.11278195488721804
+        "fillOpacity": 0.11278195488721804,
+        "percentile": 37.410071942446045
       },
       "geometry": {
         "type": "Polygon",
@@ -14846,7 +14899,8 @@
         "shapeArea": 5049523.2265625,
         "shapeLength": 10196.6586423654,
         "numCases": 30,
-        "fillOpacity": 0.11278195488721804
+        "fillOpacity": 0.11278195488721804,
+        "percentile": 37.410071942446045
       },
       "geometry": {
         "type": "Polygon",
@@ -14970,7 +15024,8 @@
         "shapeArea": 19248966.0390625,
         "shapeLength": 25141.5722902655,
         "numCases": 31,
-        "fillOpacity": 0.11654135338345864
+        "fillOpacity": 0.11654135338345864,
+        "percentile": 38.84892086330935
       },
       "geometry": {
         "type": "Polygon",
@@ -15795,7 +15850,8 @@
         "shapeArea": 3598782.3359375,
         "shapeLength": 8733.411723842908,
         "numCases": 31,
-        "fillOpacity": 0.11654135338345864
+        "fillOpacity": 0.11654135338345864,
+        "percentile": 38.84892086330935
       },
       "geometry": {
         "type": "Polygon",
@@ -15903,7 +15959,8 @@
         "shapeArea": 5033627.68359375,
         "shapeLength": 10771.3970817421,
         "numCases": 32,
-        "fillOpacity": 0.12030075187969924
+        "fillOpacity": 0.12030075187969924,
+        "percentile": 40.28776978417266
       },
       "geometry": {
         "type": "Polygon",
@@ -16052,7 +16109,8 @@
         "shapeArea": 10542836.2929688,
         "shapeLength": 15466.7816595159,
         "numCases": 33,
-        "fillOpacity": 0.12406015037593984
+        "fillOpacity": 0.12406015037593984,
+        "percentile": 41.007194244604314
       },
       "geometry": {
         "type": "Polygon",
@@ -16264,7 +16322,8 @@
         "shapeArea": 3509860.171875,
         "shapeLength": 8866.79341720781,
         "numCases": 35,
-        "fillOpacity": 0.13157894736842105
+        "fillOpacity": 0.13157894736842105,
+        "percentile": 41.726618705035975
       },
       "geometry": {
         "type": "Polygon",
@@ -16365,7 +16424,8 @@
         "shapeArea": 3459075.21484375,
         "shapeLength": 9594.336045345359,
         "numCases": 35,
-        "fillOpacity": 0.13157894736842105
+        "fillOpacity": 0.13157894736842105,
+        "percentile": 41.726618705035975
       },
       "geometry": {
         "type": "Polygon",
@@ -16592,7 +16652,8 @@
         "shapeArea": 3743075.6015625,
         "shapeLength": 8806.02749254702,
         "numCases": 35,
-        "fillOpacity": 0.13157894736842105
+        "fillOpacity": 0.13157894736842105,
+        "percentile": 41.726618705035975
       },
       "geometry": {
         "type": "Polygon",
@@ -16711,7 +16772,8 @@
         "shapeArea": 6643702.38671875,
         "shapeLength": 15640.744789184198,
         "numCases": 36,
-        "fillOpacity": 0.13533834586466165
+        "fillOpacity": 0.13533834586466165,
+        "percentile": 43.884892086330936
       },
       "geometry": {
         "type": "Polygon",
@@ -17428,7 +17490,8 @@
         "shapeArea": 3605718.8203125,
         "shapeLength": 8404.231260788441,
         "numCases": 36,
-        "fillOpacity": 0.13533834586466165
+        "fillOpacity": 0.13533834586466165,
+        "percentile": 43.884892086330936
       },
       "geometry": {
         "type": "Polygon",
@@ -17637,7 +17700,8 @@
         "shapeArea": 3678384.5234375,
         "shapeLength": 8214.176484852671,
         "numCases": 36,
-        "fillOpacity": 0.13533834586466165
+        "fillOpacity": 0.13533834586466165,
+        "percentile": 43.884892086330936
       },
       "geometry": {
         "type": "Polygon",
@@ -17781,7 +17845,8 @@
         "shapeArea": 5364917.3046875,
         "shapeLength": 12578.6847118841,
         "numCases": 37,
-        "fillOpacity": 0.13909774436090225
+        "fillOpacity": 0.13909774436090225,
+        "percentile": 46.0431654676259
       },
       "geometry": {
         "type": "Polygon",
@@ -17983,7 +18048,8 @@
         "shapeArea": 9712453.07421875,
         "shapeLength": 13142.2550784526,
         "numCases": 37,
-        "fillOpacity": 0.13909774436090225
+        "fillOpacity": 0.13909774436090225,
+        "percentile": 46.0431654676259
       },
       "geometry": {
         "type": "Polygon",
@@ -18234,7 +18300,8 @@
         "shapeArea": 10496773.140625,
         "shapeLength": 16683.6749747887,
         "numCases": 37,
-        "fillOpacity": 0.13909774436090225
+        "fillOpacity": 0.13909774436090225,
+        "percentile": 46.0431654676259
       },
       "geometry": {
         "type": "Polygon",
@@ -18861,7 +18928,8 @@
         "shapeArea": 5697613.3046875,
         "shapeLength": 11016.7117697596,
         "numCases": 38,
-        "fillOpacity": 0.14285714285714285
+        "fillOpacity": 0.14285714285714285,
+        "percentile": 48.201438848920866
       },
       "geometry": {
         "type": "Polygon",
@@ -18965,7 +19033,8 @@
         "shapeArea": 7942401.62109375,
         "shapeLength": 14050.0368632628,
         "numCases": 38,
-        "fillOpacity": 0.14285714285714285
+        "fillOpacity": 0.14285714285714285,
+        "percentile": 48.201438848920866
       },
       "geometry": {
         "type": "Polygon",
@@ -19145,7 +19214,8 @@
         "shapeArea": 10365316.1367188,
         "shapeLength": 13263.782407378301,
         "numCases": 38,
-        "fillOpacity": 0.14285714285714285
+        "fillOpacity": 0.14285714285714285,
+        "percentile": 48.201438848920866
       },
       "geometry": {
         "type": "Polygon",
@@ -19299,7 +19369,8 @@
         "shapeArea": 4801397.46875,
         "shapeLength": 9788.586534042099,
         "numCases": 39,
-        "fillOpacity": 0.14661654135338345
+        "fillOpacity": 0.14661654135338345,
+        "percentile": 50.35971223021583
       },
       "geometry": {
         "type": "Polygon",
@@ -19424,7 +19495,8 @@
         "shapeArea": 2794056.9453125,
         "shapeLength": 7655.243604988241,
         "numCases": 39,
-        "fillOpacity": 0.14661654135338345
+        "fillOpacity": 0.14661654135338345,
+        "percentile": 50.35971223021583
       },
       "geometry": {
         "type": "Polygon",
@@ -19673,7 +19745,8 @@
         "shapeArea": 4839829.6953125,
         "shapeLength": 8828.13355594787,
         "numCases": 39,
-        "fillOpacity": 0.14661654135338345
+        "fillOpacity": 0.14661654135338345,
+        "percentile": 50.35971223021583
       },
       "geometry": {
         "type": "Polygon",
@@ -19817,7 +19890,8 @@
         "shapeArea": 2034614.3515625,
         "shapeLength": 8222.59169315605,
         "numCases": 41,
-        "fillOpacity": 0.15413533834586465
+        "fillOpacity": 0.15413533834586465,
+        "percentile": 52.51798561151079
       },
       "geometry": {
         "type": "Polygon",
@@ -19923,7 +19997,8 @@
         "shapeArea": 16530914.1328125,
         "shapeLength": 21240.5301982757,
         "numCases": 42,
-        "fillOpacity": 0.15789473684210525
+        "fillOpacity": 0.15789473684210525,
+        "percentile": 53.23741007194245
       },
       "geometry": {
         "type": "Polygon",
@@ -20518,7 +20593,8 @@
         "shapeArea": 11501889.5546875,
         "shapeLength": 20339.5667802273,
         "numCases": 42,
-        "fillOpacity": 0.15789473684210525
+        "fillOpacity": 0.15789473684210525,
+        "percentile": 53.23741007194245
       },
       "geometry": {
         "type": "Polygon",
@@ -21676,7 +21752,8 @@
         "shapeArea": 2572073.6484375,
         "shapeLength": 7176.465265481121,
         "numCases": 44,
-        "fillOpacity": 0.16541353383458646
+        "fillOpacity": 0.16541353383458646,
+        "percentile": 54.67625899280576
       },
       "geometry": {
         "type": "Polygon",
@@ -21758,7 +21835,8 @@
         "shapeArea": 3350494.375,
         "shapeLength": 7840.01415682542,
         "numCases": 44,
-        "fillOpacity": 0.16541353383458646
+        "fillOpacity": 0.16541353383458646,
+        "percentile": 54.67625899280576
       },
       "geometry": {
         "type": "Polygon",
@@ -21918,7 +21996,8 @@
         "shapeArea": 6861056.16796875,
         "shapeLength": 10530.2024329914,
         "numCases": 45,
-        "fillOpacity": 0.16917293233082706
+        "fillOpacity": 0.16917293233082706,
+        "percentile": 56.115107913669064
       },
       "geometry": {
         "type": "Polygon",
@@ -22084,7 +22163,8 @@
         "shapeArea": 3596139.15234375,
         "shapeLength": 10807.516882681999,
         "numCases": 45,
-        "fillOpacity": 0.16917293233082706
+        "fillOpacity": 0.16917293233082706,
+        "percentile": 56.115107913669064
       },
       "geometry": {
         "type": "Polygon",
@@ -22359,7 +22439,8 @@
         "shapeArea": 8087000.58984375,
         "shapeLength": 11538.446533268601,
         "numCases": 46,
-        "fillOpacity": 0.17293233082706766
+        "fillOpacity": 0.17293233082706766,
+        "percentile": 57.55395683453237
       },
       "geometry": {
         "type": "Polygon",
@@ -22525,7 +22606,8 @@
         "shapeArea": 2955857.48828125,
         "shapeLength": 6849.91172413635,
         "numCases": 47,
-        "fillOpacity": 0.17669172932330826
+        "fillOpacity": 0.17669172932330826,
+        "percentile": 58.273381294964025
       },
       "geometry": {
         "type": "Polygon",
@@ -22687,7 +22769,8 @@
         "shapeArea": 9338495.6015625,
         "shapeLength": 15115.7156451678,
         "numCases": 48,
-        "fillOpacity": 0.18045112781954886
+        "fillOpacity": 0.18045112781954886,
+        "percentile": 58.992805755395686
       },
       "geometry": {
         "type": "Polygon",
@@ -22902,7 +22985,8 @@
         "shapeArea": 15181353.7109375,
         "shapeLength": 16379.8063162905,
         "numCases": 48,
-        "fillOpacity": 0.18045112781954886
+        "fillOpacity": 0.18045112781954886,
+        "percentile": 58.992805755395686
       },
       "geometry": {
         "type": "Polygon",
@@ -23175,7 +23259,8 @@
         "shapeArea": 2933586.23828125,
         "shapeLength": 6945.05655682802,
         "numCases": 48,
-        "fillOpacity": 0.18045112781954886
+        "fillOpacity": 0.18045112781954886,
+        "percentile": 58.992805755395686
       },
       "geometry": {
         "type": "Polygon",
@@ -23276,7 +23361,8 @@
         "shapeArea": 20956715.652343802,
         "shapeLength": 59561.024757621795,
         "numCases": 51,
-        "fillOpacity": 0.19172932330827067
+        "fillOpacity": 0.19172932330827067,
+        "percentile": 61.15107913669065
       },
       "geometry": {
         "type": "Polygon",
@@ -26747,7 +26833,8 @@
         "shapeArea": 15117359.7734375,
         "shapeLength": 21320.849546570502,
         "numCases": 51,
-        "fillOpacity": 0.19172932330827067
+        "fillOpacity": 0.19172932330827067,
+        "percentile": 61.15107913669065
       },
       "geometry": {
         "type": "Polygon",
@@ -26988,7 +27075,8 @@
         "shapeArea": 15284184.328125,
         "shapeLength": 17453.251554135702,
         "numCases": 52,
-        "fillOpacity": 0.19548872180451127
+        "fillOpacity": 0.19548872180451127,
+        "percentile": 62.589928057553955
       },
       "geometry": {
         "type": "Polygon",
@@ -27244,7 +27332,8 @@
         "shapeArea": 4247608.01953125,
         "shapeLength": 8766.9617614686,
         "numCases": 53,
-        "fillOpacity": 0.19924812030075187
+        "fillOpacity": 0.19924812030075187,
+        "percentile": 63.30935251798561
       },
       "geometry": {
         "type": "Polygon",
@@ -27354,7 +27443,8 @@
         "shapeArea": 11566687.5976563,
         "shapeLength": 13953.4080976727,
         "numCases": 53,
-        "fillOpacity": 0.19924812030075187
+        "fillOpacity": 0.19924812030075187,
+        "percentile": 63.30935251798561
       },
       "geometry": {
         "type": "Polygon",
@@ -27540,7 +27630,8 @@
         "shapeArea": 8765411.3359375,
         "shapeLength": 12392.942855179599,
         "numCases": 53,
-        "fillOpacity": 0.19924812030075187
+        "fillOpacity": 0.19924812030075187,
+        "percentile": 63.30935251798561
       },
       "geometry": {
         "type": "Polygon",
@@ -27632,7 +27723,8 @@
         "shapeArea": 2609013.93359375,
         "shapeLength": 8785.41637465652,
         "numCases": 53,
-        "fillOpacity": 0.19924812030075187
+        "fillOpacity": 0.19924812030075187,
+        "percentile": 63.30935251798561
       },
       "geometry": {
         "type": "Polygon",
@@ -27735,7 +27827,8 @@
         "shapeArea": 10576259.8671875,
         "shapeLength": 17755.857559565702,
         "numCases": 54,
-        "fillOpacity": 0.20300751879699247
+        "fillOpacity": 0.20300751879699247,
+        "percentile": 66.18705035971223
       },
       "geometry": {
         "type": "Polygon",
@@ -28019,7 +28112,8 @@
         "shapeArea": 2701394.8515625,
         "shapeLength": 8578.01794637493,
         "numCases": 55,
-        "fillOpacity": 0.20676691729323307
+        "fillOpacity": 0.20676691729323307,
+        "percentile": 66.90647482014388
       },
       "geometry": {
         "type": "Polygon",
@@ -28175,7 +28269,8 @@
         "shapeArea": 3433832.51171875,
         "shapeLength": 8955.190853072829,
         "numCases": 56,
-        "fillOpacity": 0.21052631578947367
+        "fillOpacity": 0.21052631578947367,
+        "percentile": 67.62589928057554
       },
       "geometry": {
         "type": "Polygon",
@@ -28397,7 +28492,8 @@
         "shapeArea": 5616462.5859375,
         "shapeLength": 12955.634988906,
         "numCases": 56,
-        "fillOpacity": 0.21052631578947367
+        "fillOpacity": 0.21052631578947367,
+        "percentile": 67.62589928057554
       },
       "geometry": {
         "type": "Polygon",
@@ -28688,7 +28784,8 @@
         "shapeArea": 8192344.90625,
         "shapeLength": 19153.4021066048,
         "numCases": 57,
-        "fillOpacity": 0.21428571428571427
+        "fillOpacity": 0.21428571428571427,
+        "percentile": 69.06474820143885
       },
       "geometry": {
         "type": "Polygon",
@@ -29095,7 +29192,8 @@
         "shapeArea": 25629771.136718802,
         "shapeLength": 25382.7065861632,
         "numCases": 60,
-        "fillOpacity": 0.22556390977443608
+        "fillOpacity": 0.22556390977443608,
+        "percentile": 69.7841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -29732,7 +29830,8 @@
         "shapeArea": 4075396.48046875,
         "shapeLength": 9475.02316367232,
         "numCases": 60,
-        "fillOpacity": 0.22556390977443608
+        "fillOpacity": 0.22556390977443608,
+        "percentile": 69.7841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -29876,7 +29975,8 @@
         "shapeArea": 10077023.8203125,
         "shapeLength": 13732.9294469495,
         "numCases": 60,
-        "fillOpacity": 0.22556390977443608
+        "fillOpacity": 0.22556390977443608,
+        "percentile": 69.7841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -30156,7 +30256,8 @@
         "shapeArea": 6402350.52734375,
         "shapeLength": 14990.7377806247,
         "numCases": 62,
-        "fillOpacity": 0.23308270676691728
+        "fillOpacity": 0.23308270676691728,
+        "percentile": 71.94244604316546
       },
       "geometry": {
         "type": "Polygon",
@@ -30500,7 +30601,8 @@
         "shapeArea": 4369538.9296875,
         "shapeLength": 14918.854844176101,
         "numCases": 67,
-        "fillOpacity": 0.2518796992481203
+        "fillOpacity": 0.2518796992481203,
+        "percentile": 72.66187050359713
       },
       "geometry": {
         "type": "Polygon",
@@ -31331,7 +31433,8 @@
         "shapeArea": 9694496.34765625,
         "shapeLength": 14458.764270631398,
         "numCases": 69,
-        "fillOpacity": 0.2593984962406015
+        "fillOpacity": 0.2593984962406015,
+        "percentile": 73.38129496402878
       },
       "geometry": {
         "type": "Polygon",
@@ -31626,7 +31729,8 @@
         "shapeArea": 11018980.5859375,
         "shapeLength": 18309.8807782111,
         "numCases": 71,
-        "fillOpacity": 0.2669172932330827
+        "fillOpacity": 0.2669172932330827,
+        "percentile": 74.10071942446044
       },
       "geometry": {
         "type": "Polygon",
@@ -32035,7 +32139,8 @@
         "shapeArea": 18217906.875,
         "shapeLength": 23261.7168877878,
         "numCases": 72,
-        "fillOpacity": 0.2706766917293233
+        "fillOpacity": 0.2706766917293233,
+        "percentile": 74.82014388489209
       },
       "geometry": {
         "type": "Polygon",
@@ -32242,7 +32347,8 @@
         "shapeArea": 10558603.4101563,
         "shapeLength": 16679.0237222144,
         "numCases": 73,
-        "fillOpacity": 0.2744360902255639
+        "fillOpacity": 0.2744360902255639,
+        "percentile": 75.53956834532374
       },
       "geometry": {
         "type": "Polygon",
@@ -32517,7 +32623,8 @@
         "shapeArea": 10408542.984375,
         "shapeLength": 14891.4889417807,
         "numCases": 79,
-        "fillOpacity": 0.29699248120300753
+        "fillOpacity": 0.29699248120300753,
+        "percentile": 76.2589928057554
       },
       "geometry": {
         "type": "Polygon",
@@ -32827,7 +32934,8 @@
         "shapeArea": 6715561.4921875,
         "shapeLength": 12417.0555589108,
         "numCases": 81,
-        "fillOpacity": 0.30451127819548873
+        "fillOpacity": 0.30451127819548873,
+        "percentile": 76.97841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -32944,7 +33052,8 @@
         "shapeArea": 13951450.0234375,
         "shapeLength": 17159.7406670616,
         "numCases": 81,
-        "fillOpacity": 0.30451127819548873
+        "fillOpacity": 0.30451127819548873,
+        "percentile": 76.97841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -33194,7 +33303,8 @@
         "shapeArea": 9700564.48828125,
         "shapeLength": 16065.5953604535,
         "numCases": 81,
-        "fillOpacity": 0.30451127819548873
+        "fillOpacity": 0.30451127819548873,
+        "percentile": 76.97841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -33462,7 +33572,8 @@
         "shapeArea": 9133974.140625,
         "shapeLength": 20183.9258406064,
         "numCases": 81,
-        "fillOpacity": 0.30451127819548873
+        "fillOpacity": 0.30451127819548873,
+        "percentile": 76.97841726618705
       },
       "geometry": {
         "type": "Polygon",
@@ -33959,7 +34070,8 @@
         "shapeArea": 9112591.640625,
         "shapeLength": 16335.4580528456,
         "numCases": 83,
-        "fillOpacity": 0.31203007518796994
+        "fillOpacity": 0.31203007518796994,
+        "percentile": 79.85611510791367
       },
       "geometry": {
         "type": "Polygon",
@@ -34252,7 +34364,8 @@
         "shapeArea": 18467681.308593802,
         "shapeLength": 20739.0082124316,
         "numCases": 84,
-        "fillOpacity": 0.3157894736842105
+        "fillOpacity": 0.3157894736842105,
+        "percentile": 80.57553956834532
       },
       "geometry": {
         "type": "Polygon",
@@ -35000,7 +35113,8 @@
         "shapeArea": 4912767.8828125,
         "shapeLength": 14113.249584531799,
         "numCases": 84,
-        "fillOpacity": 0.3157894736842105
+        "fillOpacity": 0.3157894736842105,
+        "percentile": 80.57553956834532
       },
       "geometry": {
         "type": "Polygon",
@@ -35272,7 +35386,8 @@
         "shapeArea": 19681963.175781302,
         "shapeLength": 19657.2340680016,
         "numCases": 85,
-        "fillOpacity": 0.31954887218045114
+        "fillOpacity": 0.31954887218045114,
+        "percentile": 82.01438848920863
       },
       "geometry": {
         "type": "Polygon",
@@ -35551,7 +35666,8 @@
         "shapeArea": 6179031.0859375,
         "shapeLength": 13864.2642265239,
         "numCases": 86,
-        "fillOpacity": 0.3233082706766917
+        "fillOpacity": 0.3233082706766917,
+        "percentile": 82.73381294964028
       },
       "geometry": {
         "type": "Polygon",
@@ -35857,7 +35973,8 @@
         "shapeArea": 14316804.449218802,
         "shapeLength": 18626.1837462793,
         "numCases": 88,
-        "fillOpacity": 0.3308270676691729
+        "fillOpacity": 0.3308270676691729,
+        "percentile": 83.45323741007195
       },
       "geometry": {
         "type": "Polygon",
@@ -36448,7 +36565,8 @@
         "shapeArea": 14168539.2890625,
         "shapeLength": 22824.278747303302,
         "numCases": 93,
-        "fillOpacity": 0.34962406015037595
+        "fillOpacity": 0.34962406015037595,
+        "percentile": 84.1726618705036
       },
       "geometry": {
         "type": "Polygon",
@@ -36793,7 +36911,8 @@
         "shapeArea": 4737573.8359375,
         "shapeLength": 11740.1086842066,
         "numCases": 96,
-        "fillOpacity": 0.3609022556390977
+        "fillOpacity": 0.3609022556390977,
+        "percentile": 84.89208633093526
       },
       "geometry": {
         "type": "Polygon",
@@ -37051,7 +37170,8 @@
         "shapeArea": 5987290.5859375,
         "shapeLength": 10380.5566648435,
         "numCases": 96,
-        "fillOpacity": 0.3609022556390977
+        "fillOpacity": 0.3609022556390977,
+        "percentile": 84.89208633093526
       },
       "geometry": {
         "type": "Polygon",
@@ -37345,7 +37465,8 @@
         "shapeArea": 6040096.2265625,
         "shapeLength": 10973.5607680912,
         "numCases": 103,
-        "fillOpacity": 0.38721804511278196
+        "fillOpacity": 0.38721804511278196,
+        "percentile": 86.33093525179856
       },
       "geometry": {
         "type": "Polygon",
@@ -37999,7 +38120,8 @@
         "shapeArea": 4976458.03125,
         "shapeLength": 11278.106957708,
         "numCases": 103,
-        "fillOpacity": 0.38721804511278196
+        "fillOpacity": 0.38721804511278196,
+        "percentile": 86.33093525179856
       },
       "geometry": {
         "type": "Polygon",
@@ -38199,7 +38321,8 @@
         "shapeArea": 8478389.97265625,
         "shapeLength": 17227.5802372024,
         "numCases": 107,
-        "fillOpacity": 0.40225563909774437
+        "fillOpacity": 0.40225563909774437,
+        "percentile": 87.76978417266187
       },
       "geometry": {
         "type": "Polygon",
@@ -38492,7 +38615,8 @@
         "shapeArea": 11532563.9960938,
         "shapeLength": 14645.3845088327,
         "numCases": 107,
-        "fillOpacity": 0.40225563909774437
+        "fillOpacity": 0.40225563909774437,
+        "percentile": 87.76978417266187
       },
       "geometry": {
         "type": "Polygon",
@@ -38661,7 +38785,8 @@
         "shapeArea": 7125377.63671875,
         "shapeLength": 12750.544328801101,
         "numCases": 112,
-        "fillOpacity": 0.42105263157894735
+        "fillOpacity": 0.42105263157894735,
+        "percentile": 89.20863309352518
       },
       "geometry": {
         "type": "Polygon",
@@ -38859,7 +38984,8 @@
         "shapeArea": 14303503.5625,
         "shapeLength": 18255.1484971823,
         "numCases": 113,
-        "fillOpacity": 0.424812030075188
+        "fillOpacity": 0.424812030075188,
+        "percentile": 89.92805755395683
       },
       "geometry": {
         "type": "Polygon",
@@ -39239,7 +39365,8 @@
         "shapeArea": 6663718.69921875,
         "shapeLength": 11514.2525042097,
         "numCases": 122,
-        "fillOpacity": 0.45864661654135336
+        "fillOpacity": 0.45864661654135336,
+        "percentile": 90.64748201438849
       },
       "geometry": {
         "type": "Polygon",
@@ -39464,7 +39591,8 @@
         "shapeArea": 9015927.609375,
         "shapeLength": 11964.2963713548,
         "numCases": 123,
-        "fillOpacity": 0.462406015037594
+        "fillOpacity": 0.462406015037594,
+        "percentile": 91.36690647482014
       },
       "geometry": {
         "type": "Polygon",
@@ -39592,7 +39720,8 @@
         "shapeArea": 13741276.3203125,
         "shapeLength": 17413.8864021059,
         "numCases": 132,
-        "fillOpacity": 0.49624060150375937
+        "fillOpacity": 0.49624060150375937,
+        "percentile": 92.0863309352518
       },
       "geometry": {
         "type": "Polygon",
@@ -39803,7 +39932,8 @@
         "shapeArea": 6627277.5703125,
         "shapeLength": 11691.7270181568,
         "numCases": 148,
-        "fillOpacity": 0.556390977443609
+        "fillOpacity": 0.556390977443609,
+        "percentile": 92.80575539568345
       },
       "geometry": {
         "type": "Polygon",
@@ -40055,7 +40185,8 @@
         "shapeArea": 72144802.8984375,
         "shapeLength": 50078.037462005595,
         "numCases": 153,
-        "fillOpacity": 0.575187969924812
+        "fillOpacity": 0.575187969924812,
+        "percentile": 93.5251798561151
       },
       "geometry": {
         "type": "Polygon",
@@ -41262,7 +41393,8 @@
         "shapeArea": 57751307.3632813,
         "shapeLength": 38675.3478158446,
         "numCases": 160,
-        "fillOpacity": 0.6015037593984962
+        "fillOpacity": 0.6015037593984962,
+        "percentile": 94.24460431654676
       },
       "geometry": {
         "type": "Polygon",
@@ -41924,7 +42056,8 @@
         "shapeArea": 7040804.0234375,
         "shapeLength": 15929.5150727114,
         "numCases": 160,
-        "fillOpacity": 0.6015037593984962
+        "fillOpacity": 0.6015037593984962,
+        "percentile": 94.24460431654676
       },
       "geometry": {
         "type": "Polygon",
@@ -42361,7 +42494,8 @@
         "shapeArea": 17032270.3046875,
         "shapeLength": 16744.4773106299,
         "numCases": 168,
-        "fillOpacity": 0.631578947368421
+        "fillOpacity": 0.631578947368421,
+        "percentile": 95.68345323741008
       },
       "geometry": {
         "type": "Polygon",
@@ -42846,7 +42980,8 @@
         "shapeArea": 25418210.15625,
         "shapeLength": 25632.3352417727,
         "numCases": 171,
-        "fillOpacity": 0.6428571428571429
+        "fillOpacity": 0.6428571428571429,
+        "percentile": 96.40287769784173
       },
       "geometry": {
         "type": "Polygon",
@@ -43393,7 +43528,8 @@
         "shapeArea": 8893568.4921875,
         "shapeLength": 17941.0195569011,
         "numCases": 179,
-        "fillOpacity": 0.6729323308270677
+        "fillOpacity": 0.6729323308270677,
+        "percentile": 97.12230215827338
       },
       "geometry": {
         "type": "Polygon",
@@ -43678,7 +43814,8 @@
         "shapeArea": 31026079.6445313,
         "shapeLength": 28076.3073537794,
         "numCases": 185,
-        "fillOpacity": 0.6954887218045113
+        "fillOpacity": 0.6954887218045113,
+        "percentile": 97.84172661870504
       },
       "geometry": {
         "type": "Polygon",
@@ -44558,7 +44695,8 @@
         "shapeArea": 9875139.37109375,
         "shapeLength": 15837.879119601599,
         "numCases": 217,
-        "fillOpacity": 0.8157894736842105
+        "fillOpacity": 0.8157894736842105,
+        "percentile": 98.56115107913669
       },
       "geometry": {
         "type": "Polygon",
@@ -44923,7 +45061,8 @@
         "shapeArea": 28736797.6875,
         "shapeLength": 29479.104709174902,
         "numCases": 217,
-        "fillOpacity": 0.8157894736842105
+        "fillOpacity": 0.8157894736842105,
+        "percentile": 98.56115107913669
       },
       "geometry": {
         "type": "Polygon",
@@ -45423,7 +45562,8 @@
         "shapeArea": 23664994.1875,
         "shapeLength": 25089.8154233208,
         "numCases": 266,
-        "fillOpacity": 1
+        "fillOpacity": 1,
+        "percentile": 100
       },
       "geometry": {
         "type": "Polygon",
